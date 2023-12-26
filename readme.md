@@ -12,4 +12,3 @@ Bismillah selamat (Anam)haaa
 
 
 NYERI OTOT
-BEROTOOT
