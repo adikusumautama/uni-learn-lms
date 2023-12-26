@@ -12,3 +12,5 @@ Bismillah selamat (Anam)haaa
 
 
 NYERI OTOT
+BEROTOT
+OTOT KAWAT
