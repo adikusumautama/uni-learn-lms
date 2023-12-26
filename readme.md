@@ -12,3 +12,6 @@ Bismillah selamat (Anam)haaa
 
 
 NYERI OTOT
+
+
+FADHILAH DISINI JANGAN LARI
