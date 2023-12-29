@@ -297,7 +297,7 @@ $course_id = $course->id;
                                       {!! Lang::get('curriculum.lecture_process') !!}
                                       @else
                                       @php
-                                      $file_name = 'storage/app/public/course/'.$video->course_id.'/'.$video->video_title.'.'.$video->video_type;
+                                      $file_name = '/storage/app/public/course/'.$video->course_id.'/'.$video->video_title.'.'.$video->video_type;
                                       @endphp
                                       <video src="{{ asset($file_name) }}" controls></video>
                                       {{-- <video class='video-js vjs-default-skin video_p_{!! $lecturequiz->lecture_quiz_id !!}' controls preload='auto' data-setup='{}'></video> --}}

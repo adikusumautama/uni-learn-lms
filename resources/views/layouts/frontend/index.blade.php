@@ -268,70 +268,125 @@
     @yield('content')
 
     <!-- footer start -->
-    <footer id="main-footer" style="background-color:#164863;">
 
-        <div class="row m-0">
-            <div class="col-lg-2 col-md-4 col-sm-4 col-6 mt-3">
-                <ul>
-                    <li class="mb-1"><b>Quick Links</b></li>
-                    <li><a href="{{ route('home') }}">Home Page</a></li>
-                    <li><a href="{{ route('course.list') }}">Courses List</a></li>
-                    <li><a href="{{ route('instructor.list') }}">Instructors List</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-4 col-6 mt-3">
-                <ul>
-                    <li class="mb-1"><b>Resources</b></li>
-                    <li><a href="{{ route('register') }}">Register Page</a></li>
-                    <li><a href="{{ route('login') }}">Login Page</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-4 mt-3 d-none d-sm-block">
-                <ul>
-                    <li class="mb-1"><b>Top Categories</b></li>
-                    @foreach ($categories as $category)
-                    @if ($loop->iteration <= 4) <li><a
-                            href="{{ route('course.list', 'category_id[]=' . $category->id) }}">{{ $category->name
+    <div class="my-0">
+            <!-- Footer -->
+            <footer class="text-center text-lg-start text-white" style="background-color: #164863">
+                <!-- Grid container -->
+                <div class="container p-4 pb-0">
+                    <!-- Section: Links -->
+                    <section class="">
+                        <!--Grid row-->
+                        <div class="row">
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                                <h6 class="text-uppercase mb-4 font-weight-bold">
+                                    About Us
+                                </h6>
+                                <p>
+                                    UNI-LEARN merupakan sebuah platform pembelajaran berbasis website bagi para peserta yang ingin mengembangkan skill dalam bidang programming dan disertai pembelajaran menarik lainnya.
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <hr class="w-100 clearfix d-md-none" />
+
+                            <!-- Grid column -->
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <h6 class="text-uppercase mb-4 font-weight-bold">Quick Links</h6>
+                                <p>
+                                    <a class="text-white" href="{{ route('home') }}">Homepage</a></li>
+                                </p>
+                                <p>
+                                    <a class="text-white" href="{{ route('course.list') }}">Course Lists</a>
+                                </p>
+                                <p>
+                                    <a class="text-white" href="{{ route('instructor.list') }}">Instructor Lists</a>
+                                </p>
+                            </div>
+
+                            <!-- Grid column -->
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <h6 class="text-uppercase mb-4 font-weight-bold">Login & Register</h6>
+                                <p>
+                                    <a class="text-white" href="{{ route('register') }}">Register Page</a></li>
+                                </p>
+                                <p>
+                                    <a class="text-white" href="{{ route('login') }}">Login Page</a>
+                                </p>
+                            </div>
+
+                            <!-- Grid column -->
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <h6 class="text-uppercase mb-4 font-weight-bold">Categories</h6>
+                                @foreach ($categories as $category)
+                                @if ($loop->iteration <= 4) <p>
+                                    <a href="{{ route('course.list', 'category_id[]=' . $category->id) }}" class="text-white">{{ $category->name
                             }}</a>
-                        </li>
-                        @endif
-                        @endforeach
+                                    </p>
+                                    @endif
+                                    @endforeach
+                            </div>
 
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-4 col-6 mt-3 footer-contact" style="color:white;">
-                <ul>
-                    <h3>UNI-LEARN</h3>
-                    <p>
-                        A108 Adam Street <br>
-                        New York, NY 535022<br>
-                        United States <br><br>
-                        <strong>Phone:</strong> +1 5589 55488 55<br>
-                        <strong>Email:</strong> info@example.com<br>
-                    </p>
-                </ul>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-4 col-6 mt-3" style="color:white;">
-                <ul>
-                    <h4>Our Social Networks</h4>
-                    <div class="social-links mt-3">
-                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                    </div>
-                </ul>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 text-center mt-2">
-                <img src="{{ asset('frontend/img/logo_footer.png') }}" class="img-fluid" width="79">
-                <br>
-                <span id="c-copyright">
-                    Copyright © 2023, Uni-Learn. All rights reserved.
-                </span>
-            </div>
+                            <!-- Grid column -->
+                            <hr class="w-100 clearfix d-md-none" />
+
+                            <!-- Grid column -->
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                                <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                                <p><i class="fas fa-home mr-3"></i> Konoha, KN 10012, JP</p>
+                                <p><i class="fas fa-envelope mr-3"></i> unilearn@mail.com</p>
+                                <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                                <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                            </div>
+                            <!-- Grid column -->
+                        </div>
+                        <!--Grid row-->
+                    </section>
+                    <!-- Section: Links -->
+
+                    <hr class="my-3">
+
+                    <!-- Section: Copyright -->
+                    <section class="p-3 pt-0">
+                        <div class="row d-flex align-items-center">
+                            <!-- Grid column -->
+                            <div class="col-md-7 col-lg-8 text-center text-md-start">
+                                <!-- Copyright -->
+                                <div class="p-3">
+                                    
+                                    <img src="{{ asset('frontend/img/logo_footer.png') }}" class="img-fluid" width="79">
+                                    <!-- <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a> -->
+                                    <a class="text-white" href="#">Universe Learning</a>
+                                </div>
+                                <!-- Copyright -->
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                                <!-- Facebook -->
+                                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                                <!-- Twitter -->
+                                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-twitter"></i></a>
+
+                                <!-- Google -->
+                                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-google"></i></a>
+
+                                <!-- Instagram -->
+                                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-instagram"></i></a>
+                            </div>
+                            <!-- Grid column -->
+                        </div>
+                    </section>
+                    <!-- Section: Copyright -->
+                </div>
+                <!-- Grid container -->
+            </footer>
+            <!-- Footer -->
         </div>
-    </footer>
+        <!-- End of .container -->
     <!-- footer end -->
 
     <!-- The Modal start -->

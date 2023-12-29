@@ -20,18 +20,12 @@
                 <span class="site-menu-title">Kelas</span>
             </a>
         </li>
-        <!-- <li class="site-menu-item {{ request()->is('instructor-credits') ? 'active' : '' }}">
-            <a href="{{ route('instructor.credits') }}">
-                <i class="site-menu-icon fas fa-hand-holding-usd" aria-hidden="true"></i>
-                <span class="site-menu-title">Credits</span>
+        <li class="site-menu-item {{ request()->is('instructor-calender') ? 'active' : '' }}">
+            <a href="{{ route('instructor.calendar') }}">
+            <i class="site-menu-icon fa fa-calendar" aria-hidden="true"></i>
+                <span class="site-menu-title">Event Calender</span>
             </a>
         </li>
-        <li class="site-menu-item {{ request()->is('instructor-withdraw-requests') ? 'active' : '' }}">
-            <a href="{{ route('instructor.list.withdraw') }}">
-                <i class="site-menu-icon wb-dashboard" aria-hidden="true"></i>
-                <span class="site-menu-title">Withdraw Requests</span>
-            </a>
-        </li> -->
       </ul>
 
       

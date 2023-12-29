@@ -402,7 +402,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
-        <h2>Portofolio</h2>
+        <h2>Kelas Populer</h2>
         <p>Pada proyek ini, kami membuat sebuah Learning Management System (LMS) yang dirancang khusus untuk memfasilitasi proses pembelajaran online. LMS ini menyediakan platform yang intuitif dan responsif untuk memungkinkan pengguna, baik guru maupun siswa, mengakses, mengelola, dan berpartisipasi dalam pembelajaran jarak jauh.</p>
       </div>
 
@@ -539,8 +539,8 @@
               <span>Team Leader Projek</span>
               <p>kamu mah terlalu gangster untuk aku yang gemeter, kumaha barudak <b>SIKATTT</b></p>
               <div class="social">
-                <a href=""><i class="ri-twitter-fill"></i></a>
-                <a href=""><i class="ri-facebook-fill"></i></a>
+                <a href="https://twitter.com/Anggit_13"><i class="ri-twitter-fill"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61554833111451"><i class="ri-facebook-fill"></i></a>
                 <a href="https://www.instagram.com/manggit5/"><i class="ri-instagram-fill"></i></a>
                 <a href="https://www.linkedin.com/in/muhammad-anggit-b83772262/"> <i class="ri-linkedin-box-fill"></i> </a>
               </div>
@@ -552,7 +552,7 @@
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="/img/team/Adi.png" class="img-fluid" alt=""></div>
             <div class="member-info">
-              <h4>Adi Anbu Konoha</h4>
+              <h4>Adi Kusuma</h4>
               <span>Wakil Projek</span>
               <p>menggapai mimpi itu mudah asal anda tertidur</p>
               <div class="social">

@@ -119,6 +119,9 @@ Route::group(['middleware' => 'auth'], function () {
 
         Route::get('instructor-withdraw-requests', 'InstructorController@listWithdrawRequests')->name('instructor.list.withdraw');
 
+        // calendar instructor
+        Route::get('isntructor-calendar-event', 'CalendarController@showCalendar')->name('instructor.calendar');
+
         // Save Curriculum
         Route::post('courses/section/save', 'CourseController@postSectionSave');
         Route::post('courses/section/delete', 'CourseController@postSectionDelete');
