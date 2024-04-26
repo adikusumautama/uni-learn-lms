@@ -402,7 +402,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
-        <h2>Kelas Populer</h2>
+        <h2>Kelas Yang Tersedia</h2>
         <p>Pada proyek ini, kami membuat sebuah Learning Management System (LMS) yang dirancang khusus untuk memfasilitasi proses pembelajaran online. LMS ini menyediakan platform yang intuitif dan responsif untuk memungkinkan pengguna, baik guru maupun siswa, mengakses, mengelola, dan berpartisipasi dalam pembelajaran jarak jauh.</p>
       </div>
 
@@ -536,8 +536,8 @@
             <div class="pic"><img src="/img/team/Anggit.png" class="img-fluid" alt=""></div>
             <div class="member-info">
               <h4>Muhammad Anggit Pamungkas</h4>
-              <span>Team Leader Projek</span>
-              <p>kamu mah terlalu gangster untuk aku yang gemeter, kumaha barudak <b>SIKATTT</b></p>
+              <span>Team Projects</span>
+              <p>Jika dirimu ingin membeli sesuatu tanpa melihat <b>HARGANYA</b>, maka bekerjalah tanpa melihat <b>WAKTU</b></p>
               <div class="social">
                 <a href="https://twitter.com/Anggit_13"><i class="ri-twitter-fill"></i></a>
                 <a href="https://www.facebook.com/profile.php?id=61554833111451"><i class="ri-facebook-fill"></i></a>
@@ -553,7 +553,7 @@
             <div class="pic"><img src="/img/team/Adi.png" class="img-fluid" alt=""></div>
             <div class="member-info">
               <h4>Adi Kusuma</h4>
-              <span>Wakil Projek</span>
+              <span>Team Projects</span>
               <p>menggapai mimpi itu mudah asal anda tertidur</p>
               <div class="social">
                 <a href=""><i class="ri-twitter-fill"></i></a>
@@ -570,7 +570,7 @@
             <div class="pic"><img src="/img/team/Fadilah.png" class="img-fluid" alt=""></div>
             <div class="member-info">
               <h4>Fadhilah Bimantoro</h4>
-              <span>Team Member Projects</span>
+              <span>Team Projects</span>
               <p>Manusia Tidak Perlu Kata-kata Mutiara</p>
               <div class="social">
                 <a href=""><i class="ri-twitter-fill"></i></a>
@@ -587,7 +587,7 @@
             <div class="pic"><img src="/img/team/Anam.png" class="img-fluid" alt=""></div>
             <div class="member-info">
               <h4>Nurul Anam</h4>
-              <span>Team Member Projects</span>
+              <span>Team Projects</span>
               <p>Diam dan Buktikan</p>
               <div class="social">
                 <a href=""><i class="ri-twitter-fill"></i></a>
@@ -605,7 +605,7 @@
             <div class="pic"><img src="/img/team/Seiya.png" class="img-fluid" alt=""></div>
             <div class="member-info">
               <h4>Seiya Inzu Saputra</h4>
-              <span>Team Member Projects</span>
+              <span>Team Projects</span>
               <p>Bangun dan Semangat</p>
               <div class="social">
                 <a href=""><i class="ri-twitter-fill"></i></a>

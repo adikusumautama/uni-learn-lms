@@ -83,13 +83,13 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+                        <!-- <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                             <div class="cv-category-detail cv-price">
                             	@php $course_price = $course->price ? $course->price : '0.00'; @endphp
                                 <h4>{{  config('config.default_currency').$course_price }}</h4>
                             </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-6 float-md-right col-sm-6 float-sm-right col-6">
+                        </div> -->
+                        <div class="col-xl-3 col-lg-3 col-md-6 float-md-right col-sm-6 float-sm-right col-6 ml-6">
                             <div class="cv-category-detail cv-enroll float-lg-right float-md-right float-sm-right">
                                 <a href="javascript::void(0);" class="btn mt-1 button-lgn" data-toggle="modal" data-target="#rateModal">RATE COURSE</a>
                             </div>

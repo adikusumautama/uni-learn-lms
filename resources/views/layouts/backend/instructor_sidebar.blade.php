@@ -20,12 +20,12 @@
                 <span class="site-menu-title">Kelas</span>
             </a>
         </li>
-        <li class="site-menu-item {{ request()->is('instructor-calender') ? 'active' : '' }}">
+        <!-- <li class="site-menu-item {{ request()->is('instructor-calender') ? 'active' : '' }}">
             <a href="{{ route('instructor.calendar') }}">
             <i class="site-menu-icon fa fa-calendar" aria-hidden="true"></i>
                 <span class="site-menu-title">Event Calender</span>
             </a>
-        </li>
+        </li> -->
       </ul>
 
       
